@@ -1,0 +1,101 @@
+.home {
+    width: 50%;
+    margin: 10px;
+}
+
+.home-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home-sections {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    font-size: 18px;
+    border-bottom: 1px solid lightgray;
+}
+
+.home-section-item {
+    color: rgb(92, 91, 91);
+    width: 100%;
+    text-align: center;
+}
+
+
+.post-tweet {
+    display: flex;
+    padding: 10px 0;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgray;
+}
+
+.post-tweet-toolbar {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.post-tweet-input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: auto;
+}
+
+
+.post-tweet-tools {
+    margin-top: 40px;
+    display: flex;
+}
+
+.post-tweet-tools img {
+    margin-right: 10px;
+}
+
+.post-tweet-btn {
+    color: white;
+    background-color: rgb(108, 108, 234);
+    font-size: 15px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;   
+    align-self: flex-end;
+    margin-left: 180px;
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.tweet {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px
+}
+
+.tweet-info {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.tweet-info span {
+    color: gray;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
